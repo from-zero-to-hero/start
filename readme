@@ -1,3 +1,23 @@
 #学习起初完全不会it，从python学起。
 #首先就是收集信息——最为需要学习的方面：python、数据库语言SQL、MATHLAB建模、R语言、excel、统计
-个人决定从python学起，再同时展开数据库与mathlab的学习。
+#个人决定从python学起，再同时展开数据库与mathlab的学习。
+
+
+
+#notebook
+  ##.format格式化
+  	 #first version：
+		a = "浙江"
+	 	b = "嘉兴"
+	  	print("{},{}".format(a,b))
+	  	#结果显示：浙江,嘉兴
+	 #second version:
+	 	print ("{:2f}".format(321.123))
+		print("{:6f}and{:5f}".format(321.123,123.321))
+		print("{:2f}".format(10))
+		print("{:50f}".format(10))
+		#结果显示：321.123000
+				  321.123000and123.321000
+				  10.000000
+				                                          10.000000
+
